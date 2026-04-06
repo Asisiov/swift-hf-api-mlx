@@ -1,13 +1,21 @@
 {
-  "originHash" : "25c6f88408373ffe413dc604a4c7beebf9d8bd2890565821cc0776596a5ca49c",
+  "originHash" : "d95cf08bf5c126c63ed28cce1844599147b4fe272e146b964c866ddfa0660e4a",
   "pins" : [
     {
       "identity" : "mlx-swift",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/ml-explore/mlx-swift",
       "state" : {
-        "revision" : "6ba4827fb82c97d012eec9ab4b2de21f85c3b33d",
-        "version" : "0.30.6"
+        "revision" : "61b9e011e09a62b489f6bd647958f1555bdf2896",
+        "version" : "0.31.3"
+      }
+    },
+    {
+      "identity" : "mlx-swift-lm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ml-explore/mlx-swift-lm.git",
+      "state" : {
+        "revision" : "8c9dd6391139242261bcf27d253c326f9cf2d567"
       }
     },
     {
@@ -15,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-asn1.git",
       "state" : {
-        "revision" : "810496cf121e525d660cd0ea89a758740476b85f",
-        "version" : "1.5.1"
+        "revision" : "9f542610331815e29cc3821d3b6f488db8715517",
+        "version" : "1.6.0"
       }
     },
     {
@@ -24,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-crypto",
       "state" : {
-        "revision" : "6f70fa9eab24c1fd982af18c281c4525d05e3095",
-        "version" : "4.2.0"
+        "revision" : "bb4ba815dab96d4edc1e0b86d7b9acf9ff973a84",
+        "version" : "4.3.1"
       }
     },
     {
@@ -65,12 +73,21 @@
       }
     },
     {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
+        "version" : "600.0.1"
+      }
+    },
+    {
       "identity" : "swift-xet",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/DePasqualeOrg/swift-xet.git",
+      "location" : "https://github.com/DePasqualeOrg/swift-xet",
       "state" : {
-        "revision" : "53f9eede7ec89d4cc31e48b9a8cbacbd3153e0c7",
-        "version" : "0.1.0"
+        "revision" : "d6ace41073825e04fc7a8441ab4613afcf7fd32f",
+        "version" : "0.1.1"
       }
     }
   ],

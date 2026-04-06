@@ -15,8 +15,11 @@ let package = Package(
         .library(name: "MLXEmbeddersHFAPI", targets: ["MLXEmbeddersHFAPI"]),
     ],
     dependencies: [
-        // TODO: Change to ml-explore/mlx-swift-lm before PR #118 is merged
-        .package(url: "https://github.com/DePasqualeOrg/mlx-swift-lm.git", branch: "swift-tokenizers"),
+        // TODO: Switch from this pinned revision to a major-version dependency once mlx-swift-lm publishes a release that includes PR #118.
+        .package(
+            url: "https://github.com/ml-explore/mlx-swift-lm.git",
+            revision: "8c9dd6391139242261bcf27d253c326f9cf2d567"
+        ),
         .package(url: "https://github.com/DePasqualeOrg/swift-hf-api", from: "0.2.2"),
     ],
     targets: [
